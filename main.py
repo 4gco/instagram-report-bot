@@ -3,7 +3,7 @@ import requests, uuid, secrets
 from time import sleep
 
 
-print("𓆩report bot𓆪")
+print("𓆩https:instagram-report-bot𓆪")
 
 
 uid = uuid.uuid4()
@@ -12,11 +12,11 @@ r = requests.Session()
 
 cookie = secrets.token_hex(8) * 2
 
-username = input("your user:")
+username = input("dicevips:")
 
-password = input("your password:")
+password = input("Spanky1!:")
 
-target = input("target:")
+target = input("https://www.instagram.com/danlwrld/:")
 
 sle = int(input("sleep:"))
 
